@@ -1,17 +1,31 @@
-# Thermal Grasp: NVIDIA summer 2018 internship
+# [ContactGrasp: Functional Multi-finger Grasp Synthesis from Contact](https://contactdb.cc.gatech.edu/contactgrasp.html)
 
-# Setup
-- Install miniconda3
-- `conda env create -f environment.yml`
-- Activate the environment `thermal_grasp`
-- Install [Open3D](http://www.open3d.org/docs/getting_started.html#ubuntu)
-through a terminal where the conda environment has been activated
+## Paper
 
-# GraspIt!
-- It expects world files and geometry in units of mm, but `graspit_commander`'s
-`getRobot()` function returns the robot's position in units of m.
-- Edit `src/EGPlanner/searchStateImpl.cpp`'s
-`PositionStateApproach::createVariables()` function and set `wrist1` and
-`wrist2` to `(-pi/12, pi/12, 0, pi/24)`
-- Because the `HumanHand20DOF` hand model is larger than life, all graspit
-grasp planning is done with object models scaled up by a factor of 1.15
+"[ContactGrasp: Functional Multi-finger Grasp Synthesis from Contact](https://arxiv.org/abs/1904.03754)" -
+[Samarth Brahmbhatt](https://samarth-robo.github.io),
+[Ankur Handa](https://ankurhanda.github.io/),
+[James Hays](https://www.cc.gatech.edu/~hays/), and
+[Dieter Fox](https://research.nvidia.com/node/2945). IROS 2019.
+
+## Citation
+
+```
+@INPROCEEDINGS{brahmbhatt2019contactgrasp,
+  title={{ContactGrasp: Functional Multi-finger Grasp Synthesis from Contact}},
+  author={Brahmbhatt, Samarth and Handa, Ankur and Hays, James and Fox, Dieter},
+  booktitle={2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2019}
+}
+```
+
+Unfortunately, the code is not very well documented right now. Please create issues for questions.
+
+[`dart/src/grasp_analyzer_main.cpp`](https://github.com/contactgrasp/dart/blob/master/src/grasp_analyzer.cpp) is the ContactGrasp starting point. It is a GUI which allows you to load an object mesh, attractive/repulsive points, and a hand model (with init parameters). It also allows you to tune various hyperparameters (like the strength of attraction/repulsion), to optimize the hand the ContactGrasp cost function, and to save the optimized parameters of the hand.
+
+This repository has some useful scripts, like
+
+- [`scripts/generate_contact_info.py`](scripts/generate_contact_info.py) generates the attractive and repulsive points from ContactDB data, in the format expected by [`dart/src/grasp_analyzer_main.cpp`](https://github.com/contactgrasp/dart/blob/master/src/grasp_analyzer.cpp).
+- [`dataset_tools/collect_graspit_grasps.py`](dataset_tools/collect_graspit_grasps.py): samples the stable grasps from GraspIt, and saves them in a format expected as initialization by [`dart/src/grasp_analyzer_main.cpp`](https://github.com/contactgrasp/dart/blob/master/src/grasp_analyzer.cpp).
+- [`utils/graspit2dart.py`](utils/graspit2dart.py): convert GraspIt models to DART models.
+
