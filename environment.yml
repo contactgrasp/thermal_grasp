@@ -1,0 +1,24 @@
+name: thermal_grasp
+
+channels:
+- pytorch
+
+dependencies:
+- python=3.6
+- numpy
+- conda
+- matplotlib
+- pytorch
+- torchvision
+- cuda91
+- sympy
+- scipy
+- vtk
+- lxml
+- scikit-learn
+- ignite
+- ipython
+- pip
+- pip:
+  - transforms3d
+  - visdom

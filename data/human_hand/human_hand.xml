@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='ASCII'?>
+<model version="1">
+  <geom blue="186" green="147" meshFile="meshes/palm/palm.ply" red="83" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="-0.0804109" ty="0.0005948" type="mesh" tz="4.12e-05"/>
+  <frame jointMax="0.3490658503988659" jointMin="-0.3490658503988659" jointName="0_0" jointType="rotational">
+    <position x="-0.1400599" y="0.011204800000000001" z="0.0364156"/>
+    <orientation x="-1.5707963267948966" y="0" z="0"/>
+    <axis x="0" y="0" z="1.0"/>
+    <dh_offset a="0.0" alpha="1.5707963267948966" d="0.0" theta="0.0"/>
+    <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="0_1" jointType="rotational">
+      <position x="0.0" y="0.0" z="0.0"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="0" z="1.0"/>
+      <dh_offset a="-0.04319" alpha="0.0" d="0.0" theta="0.0"/>
+      <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="0_2" jointType="rotational">
+        <position x="0.0" y="0.0" z="0.0"/>
+        <orientation x="0" y="0" z="0"/>
+        <axis x="0" y="0" z="1.0"/>
+        <dh_offset a="-0.02956" alpha="0.0" d="0.0" theta="0.0"/>
+        <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="0_3" jointType="rotational">
+          <position x="0.0" y="0.0" z="0.0"/>
+          <orientation x="0" y="0" z="0"/>
+          <axis x="0" y="0" z="1.0"/>
+          <dh_offset a="-0.02535" alpha="0.0" d="0.0" theta="0.0"/>
+          <geom blue="192" green="231" meshFile="meshes/index3/index3.ply" red="111" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.0106594" ty="0.0002945" type="mesh" tz="-0.0003362"/>
+        </frame>
+        <geom blue="139" green="191" meshFile="meshes/index2/index2.ply" red="32" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.0122615" ty="0.0012874000000000002" type="mesh" tz="0.0008129999999999999"/>
+      </frame>
+      <geom blue="97" green="133" meshFile="meshes/index1/index1.ply" red="22" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.0196839" ty="-0.0022756" type="mesh" tz="0.001758"/>
+    </frame>
+  </frame>
+  <frame jointMax="0.17453292519943295" jointMin="-0.17453292519943295" jointName="1_0" jointType="rotational">
+    <position x="-0.1456623" y="0.011204800000000001" z="0.0084036"/>
+    <orientation x="-1.5707963267948966" y="0" z="0"/>
+    <axis x="0" y="0" z="1.0"/>
+    <dh_offset a="0.0" alpha="1.5707963267948966" d="0.0" theta="0.0"/>
+    <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="1_1" jointType="rotational">
+      <position x="0.0" y="0.0" z="0.0"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="0" z="1.0"/>
+      <dh_offset a="-0.046200000000000005" alpha="0.0" d="0.0" theta="0.0"/>
+      <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="1_2" jointType="rotational">
+        <position x="0.0" y="0.0" z="0.0"/>
+        <orientation x="0" y="0" z="0"/>
+        <axis x="0" y="0" z="1.0"/>
+        <dh_offset a="-0.030989999999999997" alpha="0.0" d="0.0" theta="0.0"/>
+        <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="1_3" jointType="rotational">
+          <position x="0.0" y="0.0" z="0.0"/>
+          <orientation x="0" y="0" z="0"/>
+          <axis x="0" y="0" z="1.0"/>
+          <dh_offset a="-0.0292" alpha="0.0" d="0.0" theta="0.0"/>
+          <geom blue="184" green="128" meshFile="meshes/mid3/mid3.ply" red="147" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.014675800000000001" ty="0.000389" type="mesh" tz="-0.0010286"/>
+        </frame>
+        <geom blue="157" green="87" meshFile="meshes/mid2/mid2.ply" red="110" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.0131415" ty="0.0017416" type="mesh" tz="-0.0002882"/>
+      </frame>
+      <geom blue="113" green="63" meshFile="meshes/mid1/mid1.ply" red="80" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.023396899999999998" ty="0.0009879" type="mesh" tz="9.520000000000001e-05"/>
+    </frame>
+  </frame>
+  <frame jointMax="0.3490658503988659" jointMin="-0.3490658503988659" jointName="2_0" jointType="rotational">
+    <position x="-0.1456623" y="0.0056025" z="-0.019608399999999998"/>
+    <orientation x="-1.5707963267948966" y="0" z="0"/>
+    <axis x="0" y="0" z="1.0"/>
+    <dh_offset a="0.0" alpha="1.5707963267948966" d="0.0" theta="0.0"/>
+    <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="2_1" jointType="rotational">
+      <position x="0.0" y="0.0" z="0.0"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="0" z="1.0"/>
+      <dh_offset a="-0.039119999999999995" alpha="0.0" d="0.0" theta="0.0"/>
+      <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="2_2" jointType="rotational">
+        <position x="0.0" y="0.0" z="0.0"/>
+        <orientation x="0" y="0" z="0"/>
+        <axis x="0" y="0" z="1.0"/>
+        <dh_offset a="-0.02831" alpha="0.0" d="0.0" theta="0.0"/>
+        <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="2_3" jointType="rotational">
+          <position x="0.0" y="0.0" z="0.0"/>
+          <orientation x="0" y="0" z="0"/>
+          <axis x="0" y="0" z="1.0"/>
+          <dh_offset a="-0.024480000000000002" alpha="0.0" d="0.0" theta="0.0"/>
+          <geom blue="102" green="157" meshFile="meshes/ring3/ring3.ply" red="210" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.012442" ty="-0.0020716000000000003" type="mesh" tz="-0.0026292"/>
+        </frame>
+        <geom blue="63" green="132" meshFile="meshes/ring2/ring2.ply" red="198" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.015389" ty="0.0015896999999999999" type="mesh" tz="-0.0009754000000000001"/>
+      </frame>
+      <geom blue="44" green="98" meshFile="meshes/ring1/ring1.ply" red="149" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.0238308" ty="0.0008302" type="mesh" tz="-1.8e-06"/>
+    </frame>
+  </frame>
+  <frame jointMax="0.5235987755982988" jointMin="-0.5235987755982988" jointName="3_0" jointType="rotational">
+    <position x="-0.1344575" y="-0.0084035" z="-0.042018"/>
+    <orientation x="-1.5707963267948966" y="0" z="0"/>
+    <axis x="0" y="0" z="1.0"/>
+    <dh_offset a="0.0" alpha="1.5707963267948966" d="0.0" theta="0.0"/>
+    <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="3_1" jointType="rotational">
+      <position x="0.0" y="0.0" z="0.0"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="0" z="1.0"/>
+      <dh_offset a="-0.02991" alpha="0.0" d="0.0" theta="0.0"/>
+      <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="3_2" jointType="rotational">
+        <position x="0.0" y="0.0" z="0.0"/>
+        <orientation x="0" y="0" z="0"/>
+        <axis x="0" y="0" z="1.0"/>
+        <dh_offset a="-0.0211" alpha="0.0" d="0.0" theta="0.0"/>
+        <frame jointMax="1.5707963267948966" jointMin="-0.17453292519943295" jointName="3_3" jointType="rotational">
+          <position x="0.0" y="0.0" z="0.0"/>
+          <orientation x="0" y="0" z="0"/>
+          <axis x="0" y="0" z="1.0"/>
+          <dh_offset a="-0.02316" alpha="0.0" d="0.0" theta="0.0"/>
+          <geom blue="183" green="241" meshFile="meshes/pinky3/pinky3.ply" red="247" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.0128699" ty="-0.0015436" type="mesh" tz="-0.0006884"/>
+        </frame>
+        <geom blue="137" green="232" meshFile="meshes/pinky2/pinky2.ply" red="241" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.0116706" ty="0.0011162000000000001" type="mesh" tz="-0.0014686999999999999"/>
+      </frame>
+      <geom blue="61" green="217" meshFile="meshes/pinky1/pinky1.ply" red="233" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0.0190031" ty="0.0031528" type="mesh" tz="0.0028295"/>
+    </frame>
+  </frame>
+  <frame jointMax="1.2217304763960306" jointMin="-0.17453292519943295" jointName="4_0" jointType="rotational">
+    <position x="-0.0506241" y="-0.0115082" z="0.0189317"/>
+    <orientation x="1.3652981222529244" y="-0.4212884111813678" z="-1.7343775508953552"/>
+    <axis x="0" y="0" z="1.0"/>
+    <dh_offset a="0.0" alpha="1.5707963267948966" d="0.0" theta="0.0"/>
+    <frame jointMax="0.4363323129985824" jointMin="-0.8726646259971648" jointName="4_1" jointType="rotational">
+      <position x="0.0" y="0.0" z="0.0"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="0" z="1.0"/>
+      <dh_offset a="0.0521193" alpha="0.767944870877505" d="0.0" theta="0.8639379797371931"/>
+      <frame jointMax="1.5707963267948966" jointMin="0.0" jointName="4_2" jointType="rotational">
+        <position x="0.0" y="0.0" z="0.0"/>
+        <orientation x="0" y="0" z="0"/>
+        <axis x="0" y="0" z="1.0"/>
+        <dh_offset a="0.0407638" alpha="0.0" d="0.0" theta="0.08726646259971647"/>
+        <frame jointMax="1.7453292519943295" jointMin="0.0" jointName="4_3" jointType="rotational">
+          <position x="0.0" y="0.0" z="0.0"/>
+          <orientation x="0" y="0" z="0"/>
+          <axis x="0" y="0" z="1.0"/>
+          <dh_offset a="0.0" alpha="1.5707963267948966" d="0.0" theta="1.4835298641951802"/>
+          <geom blue="138" green="113" meshFile="meshes/thumb3/thumb3.ply" red="217" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="-4.65e-05" ty="0.0021398999999999997" type="mesh" tz="0.0199347"/>
+        </frame>
+        <geom blue="112" green="84" meshFile="meshes/thumb2/thumb2.ply" red="158" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="-0.013624599999999999" ty="-0.0024569" type="mesh" tz="0.0005335"/>
+      </frame>
+      <geom blue="80" green="60" meshFile="meshes/thumb1/thumb1.ply" red="114" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="-0.0185379" ty="0.0070383" type="mesh" tz="-0.002983"/>
+    </frame>
+  </frame>
+</model>
