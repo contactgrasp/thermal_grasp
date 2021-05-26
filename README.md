@@ -1,14 +1,15 @@
 # [ContactGrasp: Functional Multi-finger Grasp Synthesis from Contact](https://contactdb.cc.gatech.edu/contactgrasp.html)
 
-## Paper
+Utilities for ContactGrasp, including GraspIt! sampler for initializing ContactGrasp.
+
+## Citation
 
 "[ContactGrasp: Functional Multi-finger Grasp Synthesis from Contact](https://arxiv.org/abs/1904.03754)" -
+
 [Samarth Brahmbhatt](https://samarth-robo.github.io),
 [Ankur Handa](https://ankurhanda.github.io/),
 [James Hays](https://www.cc.gatech.edu/~hays/), and
 [Dieter Fox](https://research.nvidia.com/node/2945). IROS 2019.
-
-## Citation
 
 ```
 @INPROCEEDINGS{brahmbhatt2019contactgrasp,
@@ -18,6 +19,11 @@
   year={2019}
 }
 ```
+
+## Companion Repositories:
+
+- [contactgrasp/dart](https://github.com/contactgrasp/dart): Main entry point.
+- [contactgrasp/ros_thermal_grasp](https://github.com/contactgrasp/ros_thermal_grasp): ROS code for executing ContactGrasp grasps with MoveIt!.
 
 ## Documentation
 
