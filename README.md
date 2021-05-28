@@ -23,7 +23,8 @@ Utilities for ContactGrasp, including GraspIt! sampler for initializing ContactG
 ## Setup
 - Install [ROS Kinetic](http://wiki.ros.org/kinetic/Installation) (later versions might also work, but are untested).
 - Install [GraspIt!](https://graspit-simulator.github.io) and the [graspit_commander](https://github.com/graspit-simulator/graspit_commander) Python client.
-- Download [GraspIt! robot and worlds data](https://github.com/contactgrasp/contactgrasp_data/blob/master/graspit.zip) and unzip it to your favourite location e.g. GRASPIT_DATA_DIR. Then export its location as an environment variable so that the GraspIt! program finds this data: `export GRASPIT=GRASPIT_DATA_DIR`. Consider adding this command at the end of your `~/.bashrc` file.
+- Download [GraspIt! robot and worlds data](https://github.com/contactgrasp/contactgrasp_data/blob/master/graspit.zip) and unzip it to your favourite location e.g. GRASPIT_DATA_DIR. Then export its location as an environment variable so that the GraspIt! program finds this data: `$ export GRASPIT=GRASPIT_DATA_DIR`. Consider adding this command at the end of your `~/.bashrc` file.
+- Download and unzip the [object models](https://github.com/contactgrasp/contactgrasp_data/blob/master/object_models.zip) into a directory named `data/object_models`. Note: these are the same models [used in dart](https://github.com/contactgrasp/dart#setup), so you can also symlink there instead of downloading again: `$ ln -s DART_DIR/models/object_models data/object_models`.
 
 ## Companion Repositories:
 
