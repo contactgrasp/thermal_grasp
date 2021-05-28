@@ -296,8 +296,7 @@ class GraspCollector(object):
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
   parser.add_argument('--object_name', required=True)
-  parser.add_argument('--models_dir',
-      default=osp.join('~', 'deepgrasp_data', 'models'))
+  parser.add_argument('--models_dir', default=osp.join('data', 'object_models'))
   parser.add_argument('--hand_name', required=True)
   args = parser.parse_args()
 
